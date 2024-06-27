@@ -1,0 +1,19 @@
+{
+  "name": "lr6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node sendMail.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "html-to-text": "^9.0.5",
+    "imap": "^0.8.19",
+    "nodemailer": "^6.9.7"
+  }
+}
